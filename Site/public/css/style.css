@@ -1,0 +1,620 @@
+
+/* MOBILE FIRST */
+
+                             /* GLOBAL */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../sources/image/conf.png");
+    background-color:#f9edef;
+    text-align: center;
+    margin: 0;
+    
+
+}
+
+
+/* DEBUT HEADER */ 
+
+header{
+    background-color:#fcbac3;
+    text-align: center;
+
+}
+
+#logo img {
+    margin-top:20px;
+    width:100%;
+}
+
+#search{
+    border-radius:50px;
+    margin-top:40px;
+    width: 20%;
+
+}
+nav{
+    text-align: center;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+}
+nav a {
+    text-decoration:none;
+    padding:25px;
+    color:#f9edef;
+    font-size:1.2em;
+
+}
+nav a:hover{
+    color:white;
+}
+
+/* FIN HEADER */
+
+/* DEBUT MAIN */
+.marbot {
+    margin-bottom:30px;
+ }
+
+main{
+    background-color:#f9edef;
+    padding:50px;
+}
+h1{
+    padding:20px;
+}
+
+h1, h2{
+    font-family: 'Brush Script MT', cursive;
+    margin:0px;
+    color:#d40048;
+    padding: 40px;
+}
+/* FIN MAIN */ 
+
+/* DEBUT FOOTER */
+footer{
+    background-color:#f56776;
+    padding:60px;
+    color:#f9edef;
+    margin:0px;
+
+}
+/* FIN FOOTER */ 
+
+                                /* FIN GLOBAL */
+
+                                /* DEBUT PAGE Accueil */
+
+/* DEBUT SECTION SLIDER*/
+
+#section_slider{
+    overflow: hidden;
+}
+#slides {
+    text-align: center;
+}
+.point {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .point:hover {
+    background-color: #717171;
+  }
+
+/*FIN SECTION SLIDER*/
+
+
+/* DEBUT SECTION BONBON */
+
+.list h3 {
+    color:purple;
+}
+
+.list h2{
+    font-size:2.5em;
+}
+.list img{
+    width:60%;
+    border-radius:50%;
+}
+
+#bonbon .list:hover{
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+}
+.prix strong {
+	display: block;
+	font-family: "Amaranth";
+	font-size: 2.4rem;
+	font-weight: normal;
+    color:purple;
+}
+
+.btn{
+    text-decoration: none;
+    padding:10px;
+    color:white;
+    display: block;
+    background-color:  #d40048;
+    border:1px solid #fcbac3;
+}
+.btn:hover{
+    background-color: beige;
+    color:#d40048;
+}
+
+.validate{
+    width:15%;
+    background-color:green;
+    color:white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius:0px;
+    
+
+}
+
+
+.deco{
+    background-color:#d40048;
+    color:white;
+    border-radius:0px;
+    height:50%;
+    padding:5px;
+
+}
+
+
+/* FIN SECTION BONBON */
+
+
+/* DEBUT SECTION INFO */ 
+.clear{
+    width: 80%;
+
+}
+#info p{
+    text-align: left;
+    margin:20px;
+}
+
+
+
+/* FIN SECTION INFO */
+
+                                /* FIN PAGE Accueil*/
+
+                                /* DEBUT PAGE Produit*/
+/* DEBUT SECTION PRODUIT */
+
+
+
+#produit article img{
+    width:60%;
+}
+
+#produit article{
+    background-color:rgba(255, 255,255, 0.4);
+    margin:40px;
+    padding:20px;
+}
+
+#produit article:hover{
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+}
+.block-texte{
+    padding:10px;
+    text-align: left;
+}
+
+.ref{
+    color:purple;
+    font-weight: bold;
+}
+
+.price{
+    color:#d40048;
+    font-weight: bold;
+    font-size:2em;
+}
+
+#label{
+    display: inline-block;
+    text-align: center;
+    background:rgba(255,255,255, 0.3);
+    margin:0;
+}
+
+
+#label p{
+    margin: 0px;
+    padding:10px;
+    color:#3cbc6f;
+
+}
+
+#label img{
+    width:40px;
+}
+
+
+
+/*FIN SECTION PRODUIT/*
+
+
+                                /* FIN PAGE Produit */
+
+
+                                /* DEBUT PAGE Contact */ 
+#contact .formulaire-contact{
+    width:70%;
+    margin:0 auto;
+    background-color:rgba(255, 255,255, 0.4);
+    padding: 20px;   
+
+}
+
+#log .formulaire-contact{
+    width:70%;
+    margin:0 auto;
+    background-color:rgba(255, 255,255, 0.4);
+    padding: 20px;   
+}
+#valider{
+    color:white;
+    padding:35px;
+    width:20%;
+    background-color:#d40048
+
+}
+
+#valider:hover {
+    background-color:royalblue;
+}
+
+
+input{
+	width:90%;
+	height:28px;
+    border-radius:50px;
+    border:1px solid transparent;
+    margin: 1%;
+    padding-left: 12px;
+
+}
+
+input:hover{
+    background-color: #fcbac3;
+}
+textarea{
+    border-radius:10px;
+    width:89%;
+    padding:15px;
+    height:70px;
+}
+textarea:hover{
+    background-color: #fcbac3;
+}
+
+
+input[type="placeholder"]{
+    margin-left:10px;
+
+}
+
+#envoyer{
+    color:white;
+    padding:15px;
+    width:55%;
+    background-color: #017f01;
+    border:1px solid #fcbac3;
+
+}
+
+#envoyer:hover{
+    background-color:white;
+    border:1px solid #d40048;
+    color:#d40048;
+}
+
+
+                                /* FIN PAGE Contact */
+
+                                /*DEBUT PAGE Actu*/
+
+#actu hr{
+    height: 2px;
+    margin: 25px;
+}
+#actu h2{
+    padding:20px
+}
+
+
+
+                                /* FIN PAGE Actu*/
+
+/* CSS de la page template */
+
+.connexion-button {
+    background-color: #d40248;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:absolute;
+    top:100px;
+  }
+  
+  .connexion-button > a {
+  text-decoration: none;
+  }
+    .connexion-button > a {color:white;}
+    .connexion-button > a:visited {color:white;} /* Visited link    */
+    .connexion-button > a:hover {color:white;}   /* Mouse over link */
+    .connexion-button > a:active {color:white;}
+  
+  .right-fifty {
+    right:50px;
+  }
+  
+  .right-plus {
+    right:228.95px;
+  }
+  
+
+                                /* DEBUT @MEDIA*/
+
+
+/* VERSION TABLETTE */
+@media screen and (min-width: 768px) {
+    .clear{
+        margin: 0 auto;
+    }
+
+
+}
+/* FIN VERSION TABLETTE */ 
+
+
+/* VERSION DESKTOP */
+@media screen and (min-width:1025px) {
+    #logo{
+        display:flex;
+        justify-content: space-around; 
+    }
+    #logo img {
+        margin-top: 10%;
+    }
+
+    nav {
+        display: inline-flex; 
+        flex-direction: row;
+    }
+    .container{
+        width: 1470px;
+        max-width:100%;
+        margin: 0 auto;
+
+    }
+
+    .selection a img{
+        max-width: 70%;
+
+    }
+
+    #envoyer{
+        width:20%;
+    }
+
+    .clear{
+        display: inline-flex;
+    }
+    #produit article {
+        display: inline-flex;
+    }
+    #produit article img{
+        width:45%;
+    }
+
+    #actu article{
+        display: inline-flex;
+
+    }
+    #bonbon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+                background-color:rgba(255, 255,255, 0.2);
+        text-align: center;
+        margin: 25px 0;
+        padding: 15px;
+        padding-bottom: 10%;
+    }
+    
+    
+    #bonbon article {
+        margin: 0 10px;
+    }
+
+    .left, .right {
+		float: none;
+		margin: 25px 0 0;
+	}
+    
+
+
+
+    
+
+
+
+}
+/* FIN VERSION DESKTOP */
+
+                                /* FIN @MEDIA*/
+
+
+                                /* ERROR 404 */
+                                @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,800');
+.error-container {
+  text-align: center;
+  font-size: 180px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 800;
+  margin: 20px 15px;
+}
+.error-container > span {
+  display: inline-block;
+  line-height: 0.7;
+  position: relative;
+  color: #FFB485;
+}
+.error-container > span > span {
+  display: inline-block;
+  position: relative;
+}
+.error-container > span:nth-of-type(1) {
+  perspective: 1000px;
+  perspective-origin: 500% 50%;
+  color: #F0E395;
+}
+.error-container > span:nth-of-type(1) > span {
+  transform-origin: 50% 100% 0px;
+  transform: rotateX(0);
+  animation: easyoutelastic 8s infinite;
+}
+
+.error-container > span:nth-of-type(3) {
+  perspective: none;
+  perspective-origin: 50% 50%;
+  color: #D15C95;
+}
+.error-container > span:nth-of-type(3) > span {
+  transform-origin: 100% 100% 0px;
+  transform: rotate(0deg);
+  animation: rotatedrop 8s infinite;
+}
+@keyframes easyoutelastic {
+  0% {
+    transform: rotateX(0);
+  }
+  9% {
+    transform: rotateX(210deg);
+  }
+  13% {
+    transform: rotateX(150deg);
+  }
+  16% {
+    transform: rotateX(200deg);
+  }
+  18% {
+    transform: rotateX(170deg);
+  }
+  20% {
+    transform: rotateX(180deg);
+  }
+  60% {
+    transform: rotateX(180deg);
+  }
+  80% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(0);
+  }
+}
+
+@keyframes rotatedrop {
+  0% {
+    transform: rotate(0);
+  }
+  10% {
+    transform: rotate(30deg);
+  }
+  15% {
+    transform: rotate(90deg);
+  }
+  70% {
+    transform: rotate(90deg);
+  }
+  80% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotateX(0);
+  }
+}
+    
+
+
+
+
+/* demo stuff */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+  background-color: #f4f4f4;
+  margin-bottom: 50px;
+}
+html, button, input, select, textarea {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    color: #bbb;
+}
+h1 {
+  text-align: center;
+  margin: 30px 15px;
+}
+.zoom-area { 
+  max-width: 490px;
+  margin: 30px auto 30px;
+  font-size: 19px;
+  text-align: center;
+}
+.link-container {
+  text-align: center;
+}
+a.more-link {
+  text-transform: uppercase;
+  font-size: 13px;
+    background-color: #bbb;
+    padding: 10px 15px;
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    text-decoration: none;
+  margin-top: 50px;
+  letter-spacing: 1px;
+}
+
+
